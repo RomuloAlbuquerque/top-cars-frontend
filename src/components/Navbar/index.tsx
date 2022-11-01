@@ -29,7 +29,7 @@ const Navbar = () => {
         >
           <ul className="navbar-nav offset-md-2 list-menu">
             <li>
-              <NavLink to="/">
+              <NavLink to="home">
                 <h2>Home</h2>
               </NavLink>
             </li>

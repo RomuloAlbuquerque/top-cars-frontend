@@ -14,7 +14,8 @@
 
 .button-home {
   background-color: #00285f;
-  width: 50%;
+  width: 180px;
+  max-width: 50%;
   height: 40px;
   font-size: 14px;
   color: white;
@@ -24,7 +25,43 @@
   margin: auto;
 }
 
-.start {
+.start p {
   color: #585858;
   font-size: 16px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .main-button-home-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 536px;
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-button-home-container {
+    justify-content: flex-start;
+    max-width: 728px;
+    padding: 0px 80px;
+  }
+
+  .button-home {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-button-home-container {
+    max-width: 952px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-button-home-container {
+    max-width: 979px;
+  }
 }

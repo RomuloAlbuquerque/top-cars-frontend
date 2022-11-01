@@ -6,7 +6,9 @@ const ButtonHome = ()=> {
             <button className='button-home btn'>
                 <h6>VER CATÁLOGO</h6>
             </button>
-            <p className='start'>Comece agora a navegar</p>
+            <div className='start'>
+            <p >Comece agora a navegar</p>
+            </div>
         </div>
     )
 }

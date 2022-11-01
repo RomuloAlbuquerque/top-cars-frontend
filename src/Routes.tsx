@@ -6,13 +6,16 @@ import Catalogo from "page/Catalogo";
 const MyRoutes = () => {
   return (
     <BrowserRouter>
-    <Navbar />
-        <Routes>
-            <Route path="/" element={<Home />} />
-        </Routes>
-        <Routes>
-            <Route path="catalogo" element={<Catalogo />} />
-        </Routes>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route path="home" element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route path="catalogo" element={<Catalogo />} />
+      </Routes>
     </BrowserRouter>
   );
 };

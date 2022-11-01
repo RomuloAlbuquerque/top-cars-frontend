@@ -2,33 +2,51 @@
   font-size: 13px;
 }
 
+a.active h2 {
+  font-weight: bold;
+}
+
 .main-navbar-container {
   padding: 10px;
   background-color: #f78b00;
   max-height: 100px;
 }
 
-h1{
+h1 {
   font-size: 1.5em;
   font-weight: 700;
 }
 
-h2{
+h2 {
   font-size: 1em;
+  font-weight: 400;
 }
 
-@media (min-width: 576px){
-  .list-menu li{
-    margin-right: 20px;
+@media (min-width: 576px) {
+  .logo-navbar-container{
+    max-width: 117px;
+    min-height: 70;
+  }
+  .logo-navbar-container h1 {
+    font-size: 24px;
   }
 
-  .content-navbar-container{
+  .list-menu li {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+
+  .content-navbar-container {
     display: flex;
     align-items: center;
   }
 
-  .menu-navbar-container{
+  .menu-navbar-container {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .list-menu h2{
+    font-size: 18px;
   }
 }
