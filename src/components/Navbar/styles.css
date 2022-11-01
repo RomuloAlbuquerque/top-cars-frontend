@@ -3,38 +3,31 @@
 }
 
 .main-navbar-container {
-  width: 100%;
-  padding: 0px;
-  display: flex;
+  padding: 10px;
   background-color: #f78b00;
-  height: 40px;
+  max-height: 100px;
 }
 
-.content-navbar-container {
-  width: 90%;
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
+h1{
+  font-size: 1.5em;
 }
 
-.logo-navbar-container {
-  display: flex;
-  align-items: center;
-}
-
-.menu-navbar-container {
-  width: 50%;
-}
-
-.menu-navbar-container ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  padding: 0px;
-}
-
-a {
+h2{
   font-size: 1em;
+}
+
+@media (min-width: 576px){
+  .list-menu li{
+    margin-right: 20px;
+  }
+
+  .content-navbar-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-navbar-container{
+    display: flex;
+    justify-content: flex-end;
+  }
 }
