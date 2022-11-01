@@ -1,0 +1,30 @@
+.main-button-home-container{
+    max-width: 300px;
+    height: 123px;
+    background-color: #EDEDED;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-home{
+    background-color: #00285F;
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.button-home h6{
+    margin: auto;
+}
+
+.start{
+    color: #585858;
+    font-size: 18px;
+}
