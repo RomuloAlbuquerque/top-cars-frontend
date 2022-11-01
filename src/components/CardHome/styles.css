@@ -1,0 +1,30 @@
+.main-card-home-container {
+  max-width: 365px;
+  height: 300px;
+  background-color: #00285f;
+  border-radius: 10px;
+  margin: auto;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-card-home {
+  max-width: 244px;
+  height: 146px;
+}
+
+.img-card-home img {
+  width: 100%;
+}
+
+.text-card-home {
+  text-align: center;
+  max-width: 244px;
+}
+
+p{
+    font-weight: 100;
+}
