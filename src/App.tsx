@@ -1,9 +1,11 @@
+import './assets/styles/custom.scss';
 import './App.css';
 
 function App() {
   return (
     <>
-      <h1>Top-Cars</h1>
+      <h1 className='bg-primary'>Top-Cars</h1>
+      <p className='bg-success'>Testando</p>
     </>
   );
 }
